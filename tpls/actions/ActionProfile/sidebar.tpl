@@ -73,7 +73,7 @@
 </section>
 
 
-{if E::UserId()!=$oUserProfile->getId()}
+{if E::User() AND E::UserId()!=$oUserProfile->getId()}
 	<script type="text/javascript">
 		jQuery(function($){
 			ls.lang.load({lang_load name="profile_user_unfollow,profile_user_follow"});
