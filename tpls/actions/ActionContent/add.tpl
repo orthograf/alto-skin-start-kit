@@ -67,11 +67,11 @@
                 <span class="b-topic_url_demo">{$aEditTopicUrl.after}</span>
                 {if $sMode != 'add' AND E::IsAdmin()}
                     <button class="button js-tip-help" title="{$aLang.topic_create_url_edit}"
-                            onclick="ls.topic.editUrl(this); return false;"><i class="icon-edit"></i></button>
+                            onclick="ls.topic.editUrl(this); return false;"><i class="glyphicon glyphicon-edit"></i></button>
                 {/if}
                 <button class="button js-tip-help" title="{$aLang.topic_create_url_short}"
                         onclick="ls.topic.shortUrl('{$_aRequest.topic_url_short}'); return false;"><i
-                            class="icon-share-alt"></i></button>
+                            class="glyphicon glyphicon-alt"></i></button>
                 <small class="note"></small>
         </div>
         {/if}
