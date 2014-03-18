@@ -71,7 +71,7 @@
                 {/if}
                 <button class="button js-tip-help" title="{$aLang.topic_create_url_short}"
                         onclick="ls.topic.shortUrl('{$_aRequest.topic_url_short}'); return false;"><i
-                            class="glyphicon glyphicon-alt"></i></button>
+                            class="glyphicon glyphicon-share-alt"></i></button>
                 <small class="note"></small>
         </div>
         {/if}
