@@ -90,7 +90,7 @@
     <![endif]-->
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="{Config::Get('path.static.skin')}themes/default/icons/css/fontello-ie7.css">
+    <link rel="stylesheet" href="{Config::Get('path.static.skin')}assets/icons/css/fontello-ie7.css">
     <![endif]-->
     <script>
         function toggleCodes(on) {
