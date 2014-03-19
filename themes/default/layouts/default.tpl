@@ -85,12 +85,12 @@
     </script>
 
     <!--[if lt IE 9]>
-    <script src="{Config::Get('path.static.skin')}/js/html5shiv.js"></script>
-    <script src="{Config::Get('path.static.skin')}/js/respond.min.js"></script>
+    <script src="{Config::Get('path.static.skin')}assets/js/html5shiv.js"></script>
+    <script src="{Config::Get('path.static.skin')}assets/js/respond.min.js"></script>
     <![endif]-->
 
     <!--[if IE 7]>
-    <link rel="stylesheet" href="{Config::Get('path.static.skin')}/themes/default/icons/css/fontello-ie7.css">
+    <link rel="stylesheet" href="{Config::Get('path.static.skin')}themes/default/icons/css/fontello-ie7.css">
     <![endif]-->
     <script>
         function toggleCodes(on) {
